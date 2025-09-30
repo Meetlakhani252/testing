@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Cart</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar (same as home page) -->
+  <header class="navbar">
+    <h1 class="logo">Lakhani & Sons</h1>
+    <nav class="navbar">
+  <h1 class="logo">Lakhani & sons </h1>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="profile.html">Profile</a></li>
+    <li><a href="shop.html">Shop</a></li>
+    <li><a href="traditions.html">Traditional</a></li>
+    <li><a href="cart.html"> Cart </a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+  </header>
+
+  <main class="cart-page">
+    <h2 class="page-title">🛒 Your Shopping Cart</h2>
+
+    <div id="cart-items" class="cart-container"></div>
+
+    <div class="cart-summary">
+      <h3 id="cart-total">Total: $0</h3>
+
+      <!-- Payment Methods -->
+      <div class="payment-section">
+        <h4>Select Payment Method</h4>
+        <label><input type="radio" name="payment" checked> 💳 Credit/Debit Card</label><br>
+        <label><input type="radio" name="payment"> 🏦 Net Banking</label><br>
+        <label><input type="radio" name="payment"> 📱 UPI / Google Pay</label><br>
+        <label><input type="radio" name="payment"> 💵 Cash on Delivery</label>
+      </div>
+
+      <button id="checkout-btn" class="checkout-btn">Proceed to Checkout</button>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
